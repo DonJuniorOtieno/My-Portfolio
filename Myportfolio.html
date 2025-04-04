@@ -1,0 +1,148 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <section class="home">
+        <div class="image-section">
+            <img src="https://github.com/DonJuniorOtieno/pic/blob/main/v.jpg?raw=true" alt="Don J otieno" >
+        </div>
+        <div class="text-section">
+            <h1>Don Junior Otieno</h1>
+            <p>Web developer|Cybersecurity Enthusiat|Software Engineer</p>
+            <button>Download CV</button>
+        </div>
+    </div>
+    <section class="about">
+        <h2>About Me</h2>
+        <P>Hey, I am a web Developer and a software engineer.I am a Tech Enthusiast who peaks intersest in the field of cybersecurity and AI</P>
+    </section>
+    <section id="education" style="padding: 2rem; max-width: 800px; margin: auto; font-family: Arial, sans-serif;">
+        <h2 style="font-size: 2rem; margin-bottom: 1rem; border-bottom: 2px solid #ddd; padding-bottom: 0.5rem;">Education</h2>
+      
+        <div style="margin-bottom: 2rem;">
+          <h3 style="margin: 0; font-size: 1.2rem; color: #444;">High School (2019–2023)</h3>
+          <p style="margin: 0.5rem 0; color: #666;">
+            I studied in Kanga High school where I fell in love with Tech and that is where I started to forge my Career in Tech
+          </p>
+        </div>
+      
+        <div style="margin-bottom: 2rem;">
+          <h3 style="margin: 0; font-size: 1.2rem; color: #444;">Bachelor's in Information Technology (2023–Present)</h3>
+          <p style="margin: 0.5rem 0; color: #666;">
+            I’m currently sharpening my skills in programming, cybersecurity, and ethical hacking. Recent highlights include getting into Harvard X where I am actively Pursuing AI certification courses, Python and Cybersecurity.
+          </p>
+        </div>
+      
+        <div>
+          <h3 style="margin: 0; font-size: 1.2rem; color: #444;">Other Pursuits</h3>
+          <p style="margin: 0.5rem 0; color: #666;">
+            2024 March-July-Certified in AI Essentials
+            2025 Jan Certified in Cybersecurity Essentials
+          </p>
+        </div>
+      </section>
+  <title>My Certificates</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    .card:hover .overlay {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 min-h-screen p-6">
+  <div class="max-w-6xl mx-auto">
+    <h1 class="text-4xl font-bold mb-8 text-center">My Certificates</h1>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <!-- Certificate Card Example -->
+      <div class="relative card bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow">
+        <!-- Thumbnail image -->
+        <img src="https://github.com/DonJuniorOtieno/tt/blob/main/Screenshot%20(3).png?raw=true" alt="Cybersecurity Certificate Thumbnail" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h2 class="text-lg font-semibold">Cybersecurity Fundamentals</h2>
+          <p class="text-sm text-gray-500">ICT Kenya  • March 2025</p>
+        </div>
+        <div class="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center text-white opacity-0 overlay transition-opacity">
+          <button onclick="openModal('cyber-cert')" class="px-4 py-2 bg-blue-600 rounded hover:bg-blue-700">View</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- AI Certificate Card -->
+<div class="relative card bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow">
+    <!-- Thumbnail image -->
+    <img src="https://github.com/DonJuniorOtieno/t/blob/main/AI%20cert.jpg?raw=true" alt="AI Certificate Thumbnail" class="w-full h-48 object-cover">
+    <div class="p-4">
+      <h2 class="text-lg font-semibold">AI Essentials</h2>
+      <p class="text-sm text-gray-500">ALX• July 2024</p>
+    </div>
+    <div class="absolute inset-0 bg-black bg-opacity-75 flex items-center justify-center text-white opacity-0 overlay transition-opacity">
+      <button onclick="openModal('ai-cert')" class="px-4 py-2 bg-blue-600 rounded hover:bg-blue-700">View</button>
+    </div>
+  </div>
+  <!-- Modal -->
+  <div id="cyber-cert" class="hidden fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50">
+    <div class="bg-white p-6 rounded-xl max-w-2xl w-full relative">
+      <button onclick="closeModal('cyber-cert')" class="absolute top-2 right-2 text-gray-600 hover:text-gray-900">&times;</button>
+      <!-- Full certificate image -->
+      <img src="certs/cyber-full.jpg" alt="Cybersecurity Certificate Full" class="w-full rounded">
+      <p class="mt-4 text-gray-700">Issued by ICT Kenya.</p>
+      <!-- Download button -->
+      <a href="https://github.com/DonJuniorOtieno/t/blob/main/Cybersecurity-and-Emerging-Technologies-Awareness-Training-Capabuil-Cybersec-Certif.pdf" download class="mt-4 inline-block text-blue-600 hover:underline">Download PDF</a>
+    </div>
+  </div>
+
+  <!-- AI Certificate Modal -->
+<div id="ai-cert" class="hidden fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50">
+    <div class="bg-white p-6 rounded-xl max-w-2xl w-full relative">
+      <button onclick="closeModal('ai-cert')" class="absolute top-2 right-2 text-gray-600 hover:text-gray-900">&times;</button>
+      <!-- Full certificate image -->
+      <img src="https://github.com/DonJuniorOtieno/t/blob/main/AI%20cert.jpg" alt="AI Certificate Full" class="w-full rounded">
+      <p class="mt-4 text-gray-700">Issued by ALX.</p>
+      <!-- Download button -->
+      <a href="https://github.com/DonJuniorOtieno/t/blob/main/AI%20cert.jpg" download class="mt-4 inline-block text-blue-600 hover:underline">Download PDF</a>
+    </div>
+  </div>
+
+  <script>
+    function openModal(id) {
+      document.getElementById(id).classList.remove('hidden');
+    }
+
+    function closeModal(id) {
+      document.getElementById(id).classList.add('hidden');
+    }
+  </script>
+    <section class="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Simple Website</h3>
+            <p>This was my first ever website as a beginner</p>
+        </div>
+    </section>
+    <section class="contact">
+        <h2>Contact</h2>
+        <ul>
+            <li>Email:<a href="mail to:dononunga5@gmail.com">dononunga5@gmail.com</a></a></li>
+            <li>LinkedIn:<a href="https://www.linkedin.com/in/don-otieno-3356232b8?utm_source=share&utm_camp" target="_blank">https://www.linkedin.com/in/don-otieno-3356232b8?utm_source=share&utm_camp</a></li>
+            <li>GitHub:<a href="https://github.com/DonJuniorOtieno" target="_blank">https://github.com/DonJuniorOtieno</a></li>
+        </ul>
+    </section>
+    </body>
+    </body>
+    <script src="script2.js"></script>
+    <footer>
+        <p>&copy, 2025 Don Junior Otieno>All Rights Reserved</p>
+    </footer>
+</body>
+</html>
